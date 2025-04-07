@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Webpage Example</title>
+</head>
+<body>
+
+    <h1>Welcome to My Webpage</h1>
+
+    <!-- Audio and Video -->
+    <h2>Audio and Video Elements</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <br><br>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="/submit_registration" method="POST">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="18" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Image -->
+    <h2>Embedding an Image</h2>
+    <img src="image.jpg" alt="A beautiful scenery" width="500">
+
+    <!-- Table -->
+    <h2>Table Example</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>25</td>
+            <td>Los Angeles</td>
+        </tr>
+    </table>
+
+    <!-- List -->
+    <h2>List of Items</h2>
+    <ul>
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Cherries</li>
+    </ul>
+
+    <h2>Ordered List of Tasks</h2>
+    <ol>
+        <li>Complete homework</li>
+        <li>Attend meeting</li>
+        <li>Go for a run</li>
+    </ol>
+
+</body>
+</html>
